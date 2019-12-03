@@ -8,6 +8,9 @@ body {
 
 .App {
   text-align: center;
+  font-family: "Lucida Console", Times, serif;
+  font-style: normal;
+  font-size: 22px;
 }
 
 .App-logo {
@@ -32,4 +35,14 @@ body {
 .App-map {
   height: 50%;
   width: 50%;
+}
+
+div{
+  outline: 1px solid black;
+  /*min-height: 400px;*/
+  text-align: justify;
+}
+
+.bandeau{
+  padding: 50px;
 }
