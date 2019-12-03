@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-family: "Lucida Console", Times, serif;
+  font-style: normal;
+  font-size: 22px;
 }
 
 .App-logo {
@@ -19,4 +22,14 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+div{
+  outline: 1px solid black;
+  /*min-height: 400px;*/
+  text-align: justify;
+}
+
+.bandeau{
+  padding: 50px;
 }
