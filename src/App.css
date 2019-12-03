@@ -1,3 +1,11 @@
+body {
+  height: 100vh;
+}
+
+#root, .App {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -19,4 +27,9 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.App-map {
+  height: 50%;
+  width: 50%;
 }
