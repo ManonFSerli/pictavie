@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pictavie/static/css/main.b100e6da.chunk.css",
-    "main.js": "/pictavie/static/js/main.16e572d0.chunk.js",
-    "main.js.map": "/pictavie/static/js/main.16e572d0.chunk.js.map",
+    "main.css": "/pictavie/static/css/main.836a5d2b.chunk.css",
+    "main.js": "/pictavie/static/js/main.622255d7.chunk.js",
+    "main.js.map": "/pictavie/static/js/main.622255d7.chunk.js.map",
     "runtime-main.js": "/pictavie/static/js/runtime-main.2f516919.js",
     "runtime-main.js.map": "/pictavie/static/js/runtime-main.2f516919.js.map",
-    "static/js/2.913e0a00.chunk.js": "/pictavie/static/js/2.913e0a00.chunk.js",
-    "static/js/2.913e0a00.chunk.js.map": "/pictavie/static/js/2.913e0a00.chunk.js.map",
+    "static/js/2.8857502e.chunk.js": "/pictavie/static/js/2.8857502e.chunk.js",
+    "static/js/2.8857502e.chunk.js.map": "/pictavie/static/js/2.8857502e.chunk.js.map",
     "index.html": "/pictavie/index.html",
-    "precache-manifest.ea6b34c2cc2aff411f97bf346b4ed7e5.js": "/pictavie/precache-manifest.ea6b34c2cc2aff411f97bf346b4ed7e5.js",
+    "precache-manifest.db0ffd8fbcae3b4a6f6382c57705f529.js": "/pictavie/precache-manifest.db0ffd8fbcae3b4a6f6382c57705f529.js",
     "service-worker.js": "/pictavie/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/pictavie/static/css/main.b100e6da.chunk.css.map",
+    "static/css/main.836a5d2b.chunk.css.map": "/pictavie/static/css/main.836a5d2b.chunk.css.map",
     "static/media/logo.svg": "/pictavie/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2f516919.js",
-    "static/js/2.913e0a00.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.16e572d0.chunk.js"
+    "static/js/2.8857502e.chunk.js",
+    "static/css/main.836a5d2b.chunk.css",
+    "static/js/main.622255d7.chunk.js"
   ]
 }

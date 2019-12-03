@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6849aa1dc676c95b462ac4b006cf2e39",
+    "revision": "5bc1f6c284db47b560cc9c15eeb005c2",
     "url": "/pictavie/index.html"
   },
   {
-    "revision": "3f2564667601ae27b3ec",
-    "url": "/pictavie/static/css/main.b100e6da.chunk.css"
+    "revision": "13dd4589cce4adc2bf56",
+    "url": "/pictavie/static/css/main.836a5d2b.chunk.css"
   },
   {
-    "revision": "55e6284d8bc061df375c",
-    "url": "/pictavie/static/js/2.913e0a00.chunk.js"
+    "revision": "ee08259a59f970b644e2",
+    "url": "/pictavie/static/js/2.8857502e.chunk.js"
   },
   {
-    "revision": "3f2564667601ae27b3ec",
-    "url": "/pictavie/static/js/main.16e572d0.chunk.js"
+    "revision": "13dd4589cce4adc2bf56",
+    "url": "/pictavie/static/js/main.622255d7.chunk.js"
   },
   {
     "revision": "c23773010f2b7bd69dbf",
