@@ -18,6 +18,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .App-link {
@@ -26,10 +30,14 @@
 
 div{
   outline: 1px solid black;
-  /*min-height: 400px;*/
+  min-height: 200px;
   text-align: justify;
 }
 
 .bandeau{
   padding: 50px;
+}
+
+.contenu{
+  margin-top: 147px;
 }
