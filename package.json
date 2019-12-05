@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ManonFSerli.github.io/pictavie",
   "dependencies": {
+    "docker": "^1.0.0",
     "leaflet": "^1.6.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

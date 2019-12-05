@@ -14,7 +14,7 @@ class App extends React.Component {
     _map;
 
     mountMap(elem) {
-        this._map = L.map(elem).setView([38.57, -94.71], 4);
+        this._map = L.map(elem).setView([46.55, 0.36], 10);
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
             attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
             minZoom: 1,
@@ -45,12 +45,11 @@ class App extends React.Component {
                         Depuis 2019, l’enregistrement des anomalies sur l’espace public des communes de la communauté
                         urbaine relève des centres de ressources (centres de ressources existants : Nord, Sud et Ouest).
                     </div>
-                    <div>Carte</div>
+                    <div ref={(elem) => this.mountMap(elem)} className="App-map"></div>
                     <div>Diagramme bâton</div>
                     <div>Camembert</div>
                     <div>Conclusion</div>
                 </div>
-                <div ref={(elem) => this.mountMap(elem)} className="App-map"></div>
             </div>
         );
     }

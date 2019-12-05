@@ -33,13 +33,13 @@ body {
 }
 
 .App-map {
-  height: 50%;
-  width: 50%;
+  width: 60%;
+  height: 550px;
 }
 
 div{
   outline: 1px solid black;
-  /*min-height: 400px;*/
+  min-height: 400px;
   text-align: justify;
 }
 
