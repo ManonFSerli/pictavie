@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pictavie/static/css/main.932a07aa.chunk.css",
-    "main.js": "/pictavie/static/js/main.aec94216.chunk.js",
-    "main.js.map": "/pictavie/static/js/main.aec94216.chunk.js.map",
+    "main.js": "/pictavie/static/js/main.06937295.chunk.js",
+    "main.js.map": "/pictavie/static/js/main.06937295.chunk.js.map",
     "runtime-main.js": "/pictavie/static/js/runtime-main.2f516919.js",
     "runtime-main.js.map": "/pictavie/static/js/runtime-main.2f516919.js.map",
     "static/js/2.913e0a00.chunk.js": "/pictavie/static/js/2.913e0a00.chunk.js",
     "static/js/2.913e0a00.chunk.js.map": "/pictavie/static/js/2.913e0a00.chunk.js.map",
     "index.html": "/pictavie/index.html",
-    "precache-manifest.f6d97eaf0ff5719e58a8f6033e105440.js": "/pictavie/precache-manifest.f6d97eaf0ff5719e58a8f6033e105440.js",
+    "precache-manifest.4961201dbe8690b7262000eb8f284cef.js": "/pictavie/precache-manifest.4961201dbe8690b7262000eb8f284cef.js",
     "service-worker.js": "/pictavie/service-worker.js",
     "static/css/main.932a07aa.chunk.css.map": "/pictavie/static/css/main.932a07aa.chunk.css.map",
     "static/media/logo-poitiers.png": "/pictavie/static/media/logo-poitiers.1ea808f7.png"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2f516919.js",
     "static/js/2.913e0a00.chunk.js",
     "static/css/main.932a07aa.chunk.css",
-    "static/js/main.aec94216.chunk.js"
+    "static/js/main.06937295.chunk.js"
   ]
 }
