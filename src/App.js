@@ -1,24 +1,13 @@
 import React from 'react';
 import './App.css';
-//import { LineChart, Line, BarChart, XAxis, YAxis, Tooltip, Legend, Bar, CartesianGrid } from 'recharts';
-import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
-//const data = [{name: 'Page A', uv: 400, pv: 2400, amt: 2400}];
-
-const data = [
-  {name: 'Page A', uv: 4000, pv: 2400, amt: 2400},
-  {name: 'Page B', uv: 3000, pv: 1398, amt: 2210},
-  {name: 'Page C', uv: 2000, pv: 9800, amt: 2290},
-  {name: 'Page D', uv: 2780, pv: 3908, amt: 2000},
-  {name: 'Page E', uv: 1890, pv: 4800, amt: 2181},
-  {name: 'Page F', uv: 2390, pv: 3800, amt: 2500},
-  {name: 'Page G', uv: 3490, pv: 4300, amt: 2100},
-];
+import logo from './logo-poitiers.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Pictavie</h1>
+        <img className="image" src={logo} alt="logo poitiers"/>
       </header>
     <div className="contenu">
       <div className="bandeau">
@@ -36,20 +25,16 @@ function App() {
         Depuis 2019, l’enregistrement des anomalies sur l’espace public des communes de la communauté
         urbaine relève des centres de ressources (centres de ressources existants : Nord, Sud et Ouest).
       </div>
-      <div>Carte</div>
-      <div className="bandeau">Diagramme bâton
-        <LineChart width={600} height={300} data={data} margin={{top: 5, right: 30, left: 20, bottom: 5}}>
-          <XAxis dataKey="name"/>
-          <YAxis/>
-          <CartesianGrid strokeDasharray="3 3"/>
-          <Tooltip/>
-          <Legend />
-          <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{r: 8}}/>
-          <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
-        </LineChart>
+      <div className="bandeau carte">
+      <h2>Répartitions des anomalies dans Grand Poitiers</h2>
+      <div className="contenu-bandeau">
+        <iframe src="https://dd1767341afc4528b238b5bf04b9ba56.eu-west-1.aws.found.io:9243/app/kibana#/visualize/edit/b67819a0-1778-11ea-a9b7-41cef0c775bf?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:'2014-01-01T09:50:27.333Z',to:'2018-12-31T10:05:42.257Z'))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(mapCenter:!(46.59374437150817,0.3801830112934113),mapZoom:12),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(autoPrecision:!t,field:location,isFilteredByCollar:!t,mapBounds:(bottom_right:(lat:46.23495279600417,lon:1.4474487304687502),top_left:(lat:46.97463048970669,lon:-0.5877685546875002)),mapCenter:(lat:46.60632316159665,lon:0.42915344238281256),mapZoom:10,precision:6,useGeocentroid:!t),schema:segment,type:geohash_grid)),params:(addTooltip:!t,colorSchema:'Yellow+to+Red',dimensions:(geocentroid:(accessor:3,aggType:geo_centroid,format:(id:string),params:()),geohash:(accessor:1,aggType:geohash_grid,format:(id:string),params:(precision:5,useGeocentroid:!t)),metric:(accessor:2,aggType:count,format:(id:number),params:())),heatClusterSize:1.5,isDesaturated:!t,legendPosition:bottomright,mapCenter:!(0,0),mapType:'Scaled+Circle+Markers',mapZoom:2,wms:(enabled:!f,options:(format:image%2Fpng,transparent:!t),selectedTmsLayer:(attribution:'%3Cp%3E%3Ca+rel%3D%22noreferrer+noopener%22+href%3D%22https:%2F%2Fwww.openstreetmap.org%2Fcopyright%22%3EOpenStreetMap+contributors%3C%2Fa%3E+%7C+%3Ca+rel%3D%22noreferrer+noopener%22+href%3D%22https:%2F%2Fopenmaptiles.org%22%3EOpenMapTiles%3C%2Fa%3E+%7C+%3Ca+rel%3D%22noreferrer+noopener%22+href%3D%22https:%2F%2Fwww.maptiler.com%22%3EMapTiler%3C%2Fa%3E+%7C+%3Ca+rel%3D%22noreferrer+noopener%22+href%3D%22https:%2F%2Fwww.elastic.co%2Felastic-maps-service%22%3EElastic+Maps+Service%3C%2Fa%3E%3C%2Fp%3E',id:road_map,maxZoom:20,minZoom:0,origin:elastic_maps_service))),title:'',type:tile_map))" height="600" width="800"></iframe>
+        <p>blabla</p>
+        </div>
       </div>
-      <div>Camembert</div>
-      <div>Conclusion</div>
+      <div className="bandeau">Diagramme bâton</div>
+      <div className="bandeau camembert">Camembert</div>
+      <div className="bandeau">Conclusion</div>
     </div>
     </div>
   );
