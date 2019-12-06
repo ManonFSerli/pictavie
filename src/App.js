@@ -37,7 +37,7 @@ function App() {
           </p>
           <p>
             En fonction des données que vous désirez voir vous pouvez changer facilement la période qui vous
-            intéresse. Pour information, les anomalies rescencée sont comprises entre le 01/01/2014 et le 31/12/2018.
+            intéresse. Pour information, les anomalies rescencées sont comprises entre le 01/01/2014 et le 31/12/2018.
             Vous pouvez donc choisir une période entre ces deux dates là.
           </p>
           <p>
