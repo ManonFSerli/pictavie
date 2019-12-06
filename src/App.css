@@ -75,5 +75,12 @@ div{
 
 p{
   padding-left: 50px;
-  padding-right: 50px
+  padding-right: 50px;
+  flex-grow: 1;
+}
+
+.contenu-camemberts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
