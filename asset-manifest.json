@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pictavie/static/css/main.836a5d2b.chunk.css",
-    "main.js": "/pictavie/static/js/main.622255d7.chunk.js",
-    "main.js.map": "/pictavie/static/js/main.622255d7.chunk.js.map",
+    "main.css": "/pictavie/static/css/main.932a07aa.chunk.css",
+    "main.js": "/pictavie/static/js/main.aec94216.chunk.js",
+    "main.js.map": "/pictavie/static/js/main.aec94216.chunk.js.map",
     "runtime-main.js": "/pictavie/static/js/runtime-main.2f516919.js",
     "runtime-main.js.map": "/pictavie/static/js/runtime-main.2f516919.js.map",
-    "static/js/2.8857502e.chunk.js": "/pictavie/static/js/2.8857502e.chunk.js",
-    "static/js/2.8857502e.chunk.js.map": "/pictavie/static/js/2.8857502e.chunk.js.map",
+    "static/js/2.913e0a00.chunk.js": "/pictavie/static/js/2.913e0a00.chunk.js",
+    "static/js/2.913e0a00.chunk.js.map": "/pictavie/static/js/2.913e0a00.chunk.js.map",
     "index.html": "/pictavie/index.html",
-    "precache-manifest.db0ffd8fbcae3b4a6f6382c57705f529.js": "/pictavie/precache-manifest.db0ffd8fbcae3b4a6f6382c57705f529.js",
+    "precache-manifest.f6d97eaf0ff5719e58a8f6033e105440.js": "/pictavie/precache-manifest.f6d97eaf0ff5719e58a8f6033e105440.js",
     "service-worker.js": "/pictavie/service-worker.js",
-    "static/css/main.836a5d2b.chunk.css.map": "/pictavie/static/css/main.836a5d2b.chunk.css.map",
-    "static/media/logo.svg": "/pictavie/static/media/logo.25bf045c.svg"
+    "static/css/main.932a07aa.chunk.css.map": "/pictavie/static/css/main.932a07aa.chunk.css.map",
+    "static/media/logo-poitiers.png": "/pictavie/static/media/logo-poitiers.1ea808f7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2f516919.js",
-    "static/js/2.8857502e.chunk.js",
-    "static/css/main.836a5d2b.chunk.css",
-    "static/js/main.622255d7.chunk.js"
+    "static/js/2.913e0a00.chunk.js",
+    "static/css/main.932a07aa.chunk.css",
+    "static/js/main.aec94216.chunk.js"
   ]
 }
