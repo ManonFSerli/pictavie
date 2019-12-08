@@ -18,8 +18,7 @@ body {
 }
 
 .App-header {
-  background-color: #201f4a
-   ;/*#282c34*/
+  background-color: #201f4a; /*#282c34*/
   /*min-height: 100vh;*/
   min-height: 20vh;
   display: flex;
@@ -71,17 +70,45 @@ div{
 
 .image{
   position: absolute;
-  left : 10px;
+  left : 5px;
+  top : 5px;
 }
 
-p{
+/* p{
   padding-left: 50px;
+  /*padding-right: 50px; */
+  /* flex-grow: 1; */
+  /* width: 50%; */
+/*} */
+
+.texte-droite{
+  padding-left: 50px;
+}
+
+.texte-gauche{
   padding-right: 50px;
-  flex-grow: 1;
 }
 
 .contenu-camemberts{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+iframe{
+  min-width: 50%;
+}
+
+.conclusion{
+  background-color: #ed9a68;
+}
+
+.ancres{
+  background-color: #201f4a;
+  /* font-size: 20px; */
+  display: flex;
+}
+
+.img-carte{
+  width: 50%
 }
