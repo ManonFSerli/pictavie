@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pictavie/precache-manifest.dfcabfe08d31cb748f64b6db012a9641.js"
+  "/pictavie/precache-manifest.888e077d4f04cb528e03b81b4f39fcc3.js"
 );
 
 self.addEventListener('message', (event) => {
