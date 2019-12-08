@@ -8,9 +8,10 @@ body {
 
 .App {
   text-align: center;
-  font-family: "Lucida Console", Times, serif;
+  /* font-family: "Lucida Console", Times, serif; */
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .App-logo {
@@ -20,7 +21,7 @@ body {
 .App-header {
   background-color: #201f4a; /*#282c34*/
   /*min-height: 100vh;*/
-  min-height: 20vh;
+  min-height: 14vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,11 +32,20 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  
 }
 
 .App-link {
   color: #09d3ac;
 }
+
+/* .carte span{
+  visibility: hidden;
+}
+
+.carte h2:hover + span {
+  visibility: visible;
+} */
 
 div{
   /*outline: 1px solid black;*/
@@ -48,7 +58,7 @@ div{
 }
 
 .contenu{
-  margin-top: 170px;
+  margin-top: 120px;
 }
 
 .carte{
@@ -70,6 +80,7 @@ div{
 
 .image{
   position: absolute;
+  width: 20%;
   left : 5px;
   top : 5px;
 }
@@ -110,5 +121,14 @@ iframe{
 }
 
 .img-carte{
-  width: 50%
+  width: 70%;
+}
+
+.logo-serli{
+  width: 10%;
+}
+
+.explication{
+  margin-bottom: 30px;
+  font-size: 15px;
 }
